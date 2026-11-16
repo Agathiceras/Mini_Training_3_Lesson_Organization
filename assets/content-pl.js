@@ -224,7 +224,7 @@ const CONTENT = {
  }
 },
 {id:'tech', numLabel:'Moduł 3', emoji:'🔧', color:'var(--coral)',
- title:'Problemy techniczne i równowaga na zajęciach',
+ title:'Problemy techniczne i równowaga w klasie',
  desc:'Dlaczego bałagan często okazuje się problemem technicznym w przebraniu, jak sprawić, by cała grupa dalej się uczyła, gdy rozwiązujesz problem jednego ucznia, plan dla szybko kończących uczniów, jak poświęcić uwagę każdemu dziecku w dużej grupie i co robić, gdy uczeń dołącza do lekcji spóźniony.',
  obj:'Zapobieganie większości problemów technicznych, zanim się pojawią, stosowanie jasnego protokołu, gdy do nich dojdzie, zajmowanie szybko kończących uczniów, gdy pomagasz innym, poświęcanie uwagi każdemu dziecku w dużej grupie oraz pomaganie uczniowi, który się spóźnił, w nadrobieniu materiału bez zatrzymywania grupy.',
  sections:[
@@ -302,13 +302,13 @@ const CONTENT = {
      {ic:'📛', html:`<strong>Często używaj imion.</strong> Staraj się zwrócić do każdego ucznia po imieniu co najmniej dwa razy na każdej lekcji — na rozgrzewce i ponownie podczas ćwiczeń.`},
      {ic:'🔄', html:`<strong>Rotuj tury.</strong> Udostępniajcie ekran po kolei, zbieraj odpowiedzi od różnych uczniów i korzystaj z losowania, aby było sprawiedliwie — a nie zawsze te same szybkie ręce.`},
      {ic:'👍', html:`<strong>Szybkie sprawdzenia z całą grupą.</strong> <em>«Kciuk w górę, gdy skończysz krok 2».</em> Jednym spojrzeniem widzisz, kto utknął, nie czekając, aż sam o tym powie.`},
-     {ic:'💬', html:`<strong>Prywatne sprawdzenia z cichymi uczniami.</strong> Krótka prywatna wiadomość na czacie — <em>«Jak Ci idzie? Pokaż mi, na którym jesteś etapie»</em> — dociera do uczniów, którzy nigdy nie zapytaliby przy wszystkich.`},
+     {ic:'💬', html:`<strong>Prywatne sprawdzenia z cichymi uczniami.</strong> Krótka prywatna wiadomość na czacie — <em>«Jak Ci idzie? Pokaż mi, na którym jesteś etapie»</em> — dociera do uczniów, którzy nigdy nie zadają pytań przy wszystkich.`},
      {ic:'📝', html:`<strong>Prowadź szybką listę, w głowie lub na papierze.</strong> Przed podsumowaniem sprawdź: czy jest ktoś, z kim dziś nie rozmawiałeś(-aś)? Zacznij od tej osoby.`},
      {ic:'🙋', html:`<strong>Reaguj na każdą podniesioną rękę,</strong> nawet jeśli tylko po to, by powiedzieć: <em>«Widzę Cię, Leo — jesteś następny».</em> Zignorowana ręka to jeden z najszybszych sposobów na utratę dziecka.`}
    ])}
   `},
   {t:'⏰ Uczeń dołącza do lekcji spóźniony', html:`
-   <div class="card"><p>Uczniowie spóźniają się z wielu powodów: szkoła się przedłużyła, połączenie zawiodło, link się zgubił. Jeśli za każdym razem zaczynasz od początku, gdy ktoś dołącza, cała grupa traci czas. Jeśli nikt nie pomaga spóźnionemu, spędza resztę lekcji zagubiony, a właśnie to mówi rodzicom. Celem jest, by w kilka minut zaczął pracować, bez zatrzymywania pozostałych.</p></div>
+   <div class="card"><p>Uczniowie spóźniają się z wielu powodów: szkoła się przedłużyła, połączenie zawiodło, link się zgubił. Jeśli za każdym razem zaczynasz od początku, gdy ktoś dołącza, cała grupa traci czas. Jeśli nikt nie pomaga spóźnionemu, uczeń spędza resztę lekcji zagubiony, i właśnie to mówi rodzicom. Celem jest, by w kilka minut zaczął pracować, bez zatrzymywania pozostałych.</p></div>
    ${timeline([
      {ic:'👋', label:'Gdy dołącza', items:[
        '<strong>Przywitaj go krótko, po imieniu:</strong> <em>«Witaj, Leo! Jesteśmy przy kroku 3: sprawianiu, by postać skakała».</em>',
